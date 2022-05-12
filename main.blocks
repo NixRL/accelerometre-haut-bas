@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="%E/_3Mxg?!a]%EzIB,ss">acceleration y</variable></variables><block type="pxt-on-start" id="%LBf:RcAeX~s5zR}b$?t" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="I~hczkhU9q-jY1/@|aZj"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="j^,c:CW:Iuu;ySchW}+}"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_acceleration" id="Cb`?}Ah%?oQPLbR%QqlX"><field name="NAME">Dimension.Y</field></block></value><value name="B"><shadow type="math_number" id="NhgcXH`PBoBDV#_U,e/B"><field name="NUM">-100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="jkr!#EMmdbH8hiELlTd$"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="%#h!:6w?fmL$Jrx}rC*c"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="]4W$S,V8=;[XYfsF!ep^"><field name="NAME">Dimension.Y</field></block></value><value name="B"><shadow type="math_number" id="IxcE$rA1h;;DJRW$j34."><field name="NUM">100</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="mSlA`Lk$1(#5Ef~~o1i@"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="Rhqkobt=vo]6~$c:^WCG"><field name="i">IconNames.Yes</field></block></statement></block></statement></block></xml>
